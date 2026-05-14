@@ -1,0 +1,17 @@
+services:
+  portfolio:
+    image: node:20-alpine
+    container_name: portfolio-app
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - portfolio_node_modules:/app/node_modules
+    environment:
+      - NODE_ENV=production
+    command: sh -c "npm install && npm run build && npx serve@14.2.4 -s build -l 5177"
+    ports:
+      - "8177:5177"
+    restart: unless-stopped
+
+volumes:
+  portfolio_node_modules:
