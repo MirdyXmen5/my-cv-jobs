@@ -11,9 +11,12 @@ import Docker from "../../Assets/TechIcons/Docker.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
-import Django from "../../Assets/TechIcons/django-logo-negative.svg";
-import Axios from "../../Assets/TechIcons/Azios.svg";
-import i18next from "../../Assets/TechIcons/i18next-icon.svg";
+import bitrix24 from "../../Assets/TechIcons/Bitrix24-logo-ru.svg";
+import paas from "../../Assets/TechIcons/PaaS-logo.png";
+import n8n from "../../Assets/TechIcons/n8n-color.svg";
+import Coolify from "../../Assets/TechIcons/coolify.svg";
+import Windmill from "../../Assets/TechIcons/windmill-logo-primary.svg";
+import VMware from "../../Assets/TechIcons/VMware_logo.svg";
 
 function Techstack() {
   return (
@@ -23,20 +26,16 @@ function Techstack() {
         <div className="tech-icons-text">Javascript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Django} alt="django" />
-        <div className="tech-icons-text">Django</div>
+        <img src={bitrix24} alt="bitrix24" />
+        <div className="tech-icons-text">Bitrix24</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={ReactIcon} alt="react" />
         <div className="tech-icons-text">React.Js</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Axios} alt="Axios" />
-        <div className="tech-icons-text">Axios</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={i18next} alt="i18next" />
-        <div className="tech-icons-text">i18next</div>
+        <img src={paas} alt="PaaS" />
+        <div className="tech-icons-text">PaaS</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Git} alt="git" />
@@ -59,15 +58,15 @@ function Techstack() {
         <div className="tech-icons-text">Tailwind CSS</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbWebhook size={60} />
+        <img src={n8n} alt="n8n" />
         <div className="tech-icons-text">n8n</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbServerCog size={60} />
+        <img src={Coolify} alt="Coolify" />
         <div className="tech-icons-text">Coolify</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <GiWindmill size={60} />
+        <img src={Windmill} alt="Windmill" />
         <div className="tech-icons-text">Windmill</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -79,16 +78,12 @@ function Techstack() {
         <div className="tech-icons-text">PS.kz</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbServerBolt size={60} />
-        <div className="tech-icons-text">Hoster.kz</div>
+        <img src={VMware} alt="VMware" />
+        <div className="tech-icons-text">VMware</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiWordpress size={60} />
         <div className="tech-icons-text">WordPress CMS</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiStrapi size={60} />
-        <div className="tech-icons-text">Strapi</div>
       </Col>
     </Row>
   );

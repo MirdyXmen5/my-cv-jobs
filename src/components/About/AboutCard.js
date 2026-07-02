@@ -12,7 +12,7 @@ function AboutCard() {
             из <span className="purple">Шымкента, Казахстан</span>.
             <br />
             В настоящее время я работаю как{" "}
-            <span className="purple">системный администратор и DevOps</span>.
+            <span className="purple">автоматизатор бизнес-процессов</span>.
             <br />
             Имею <span className="purple">три образования</span>.
             <br />
