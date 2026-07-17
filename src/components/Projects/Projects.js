@@ -54,7 +54,19 @@ function Projects() {
               demoLabel="Docs"
             />
           </Col>
-
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tls}
+              isBlog={false}
+              title="Тараз Лифт Сервис"
+              description="Создал современный, быстрый и визуально впечатляющий веб-сайт, который повысит доверие к бренду «Taraz Lift Service»"
+              ghLink="https://github.com/MirdyXmen5/taraz-lift-service#"
+              demoLink="https://docs.google.com/document/d/1uND9V_nK6GSkxH_oJwe_EJcD-V1JIOlqJIyVX7TD1-0/edit?usp=sharing"
+              demoLabel="Docs"
+            />
+          </Col>
+                
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitrix24bp}
@@ -87,18 +99,6 @@ function Projects() {
               description="Внедрил ИБ в ГКП «Жамбыл-Жылу» по стандартам ЕТ РК №832. Главная цель — разработать грамотную документацию, которая защитит инфраструктуру от киберугроз."
               ghLink="https://docs.google.com/document/d/1JzfK9WiqzO1OkIOi6jxQ1dgek55Z9sP_EqZCNxgSI2I/edit?usp=sharing"
               demoLink="https://docs.google.com/document/d/1JzfK9WiqzO1OkIOi6jxQ1dgek55Z9sP_EqZCNxgSI2I/edit?usp=sharing"
-              demoLabel="Docs"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tls}
-              isBlog={false}
-              title="Тараз Лифт Сервис"
-              description="Создал современный, быстрый и визуально впечатляющий веб-сайт, который повысит доверие к бренду «Taraz Lift Service»"
-              ghLink="https://github.com/MirdyXmen5/taraz-lift-service#"
-              demoLink="https://docs.google.com/document/d/1uND9V_nK6GSkxH_oJwe_EJcD-V1JIOlqJIyVX7TD1-0/edit?usp=sharing"
               demoLabel="Docs"
             />
           </Col>
