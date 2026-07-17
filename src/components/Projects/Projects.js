@@ -61,7 +61,7 @@ function Projects() {
               isBlog={false}
               title="Тараз Лифт Сервис"
               description="Создал современный, быстрый и визуально впечатляющий веб-сайт, который повысит доверие к бренду «Taraz Lift Service»"
-              ghLink="https://github.com/MirdyXmen5/taraz-lift-service#"
+              ghLink="https://github.com/MirdyXmen5/taraz-lift-service"
               demoLink="https://docs.google.com/document/d/1uND9V_nK6GSkxH_oJwe_EJcD-V1JIOlqJIyVX7TD1-0/edit?usp=sharing"
               demoLabel="Docs"
             />
